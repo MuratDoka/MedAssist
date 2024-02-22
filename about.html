@@ -47,7 +47,7 @@
       href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
     />
   </head>
-  <body>
+  <body data-spy="scroll">
     <div class="content-wrapper">
       <nav class="navbar solid nav-wrapper-dark inverse-text navbar-expand-lg">
         <div class="container">
@@ -86,8 +86,26 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="about.html"
+                  >About Us</a
+                >
+                <ul class="dropdown-menu dropdown-menu-left">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="dropdown-item dropdown-toggle scroll"
+                      href="#ourValues"
+                      >Our Values</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="dropdown-item dropdown-toggle scroll"
+                      href="#ourCustomerFlow"
+                      >Serenity Experience</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#">Our Services</a>
@@ -98,7 +116,7 @@
                     >
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="#!">Dental</a>
+                        <a class="dropdown-item" href="dental.html">Dental</a>
                       </li>
                       <li>
                         <a class="dropdown-item" href="#!">Aesthetic</a>
@@ -148,7 +166,7 @@
                 <a class="nav-link dropdown-toggle" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
             <!-- /.navbar-nav -->
@@ -194,112 +212,98 @@
           <h2 class="section-title mb-40 text-center">
             Welcome to Serenity MedAssist
           </h2>
+          <h5 class="lead larger text-center">About Us</h5>
           <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="tabs-wrapper lined">
-                <ul class="nav nav-tabs">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#tab1-1"
-                      >About Us</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#tab1-2"
-                      >Our Values</a
-                    >
-                  </li>
-                </ul>
-                <!-- /.nav-tabs -->
-                <div class="tab-content">
-                  <div class="tab-pane fade show active" id="tab1-1">
-                    <p>
-                      <span class="dropcap">W</span>elcome to Serenity MedAssist
-                      - your premier destination for health tourism. We
-                      specialize in providing comprehensive healthcare solutions
-                      coupled with unforgettable travel experiences, ensuring
-                      our clients receive top-notch medical treatments while
-                      exploring captivating destinations in Albania and Turkey.
-                    </p>
-                    <p>
-                      At Serenity MedAssist we understand that seeking medical
-                      care can be a daunting experience. That's why we've made
-                      it our mission to simplify the process by offering
-                      personalized assistance every step of the way. From
-                      initial consultation to post-treatment care, our dedicated
-                      team of professionals is committed to ensuring your
-                      comfort, safety, and satisfaction throughout your journey.
-                    </p>
-                    <p>
-                      What sets us apart is our extensive network of
-                      internationally renowned hospitals, clinics, and
-                      healthcare professionals. Whether you're in need of
-                      cosmetic surgery, dental procedures, eye examination,
-                      fertility treatments, oncology diseases, organ
-                      transplantation, or other specialized medical care, we
-                      connect you with leading experts who deliver exceptional
-                      results using state-of-the-art technology and innovative
-                      techniques.
-                    </p>
-                    <p>
-                      At Serenity MedAssist, your well-being is our priority.
-                      With our commitment to excellence, unparalleled customer
-                      service, and a passion for creating unforgettable
-                      experiences, we strive to redefine health tourism and
-                      empower you to reclaim your health and vitality with
-                      confidence and peace of mind.
-                    </p>
-                    <p>
-                      Embark on a journey of healing, discovery, and
-                      transformation with Serenity MedAssist. Your path to
-                      wellness starts here.
-                    </p>
-                    <ul class="social social-color social-s mb-15">
-                      <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-flickr"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tab-pane fade" id="tab1-2">
-                    <p>
-                      At Serenity MedAssist, we believe that our values are not
-                      just words on paper; they are the heartbeat of our
-                      organization, shaping our culture, guiding our decisions,
-                      and driving our actions every day.
-                    </p>
-                    <p>
-                      Our values represent who we are as a company, what we
-                      stand for and how we strive to make a positive impact on
-                      the world around us. They are the foundation upon which we
-                      build relationships, make business decisions and pursue
-                      our mission and vision with passion and integrity.
-                    </p>
-                  </div>
-                </div>
-                <!-- /.tab-content -->
-              </div>
-              <!-- /.tabs-wrapper -->
+            <div class="col-lg-12">
+              <p>
+                <span class="dropcap">W</span>elcome to Serenity MedAssist -
+                your premier destination for health tourism. We specialize in
+                providing comprehensive healthcare solutions coupled with
+                unforgettable travel experiences, ensuring our clients receive
+                top-notch medical treatments while exploring captivating
+                destinations in Albania and Turkey.
+              </p>
+              <p>
+                At Serenity MedAssist we understand that seeking medical care
+                can be a daunting experience. That's why we've made it our
+                mission to simplify the process by offering personalized
+                assistance every step of the way. From initial consultation to
+                post-treatment care, our dedicated team of professionals is
+                committed to ensuring your comfort, safety, and satisfaction
+                throughout your journey.
+              </p>
+              <p>
+                What sets us apart is our extensive network of internationally
+                renowned hospitals, clinics, and healthcare professionals.
+                Whether you're in need of cosmetic surgery, dental procedures,
+                eye examination, fertility treatments, oncology diseases, organ
+                transplantation, or other specialized medical care, we connect
+                you with leading experts who deliver exceptional results using
+                state-of-the-art technology and innovative techniques.
+              </p>
+              <p>
+                At Serenity MedAssist, your well-being is our priority. With our
+                commitment to excellence, unparalleled customer service, and a
+                passion for creating unforgettable experiences, we strive to
+                redefine health tourism and empower you to reclaim your health
+                and vitality with confidence and peace of mind.
+              </p>
+              <p>
+                Embark on a journey of healing, discovery, and transformation
+                with Serenity MedAssist. Your path to wellness starts here.
+              </p>
+              <ul class="social social-color social-s mb-15">
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-flickr"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </li>
+              </ul>
             </div>
-            <!-- /column -->
+            <!--/column -->
           </div>
-          <!-- /.row -->
+          <!--/.row -->
         </div>
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-
-      <div class="wrapper dark-wrapper inverse-text" data-aos="fade-down">
+      <div class="wrapper gray-wrapper" data-aos="fade-down" id="ourValues">
+        <div class="container inner">
+          <h2 class="section-title text-center">Our Values</h2>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>
+                At Serenity MedAssist, we believe that our values are not just
+                words on paper; they are the heartbeat of our organization,
+                shaping our culture, guiding our decisions, and driving our
+                actions every day.
+              </p>
+              <p>
+                Our values represent who we are as a company, what we stand for
+                and how we strive to make a positive impact on the world around
+                us. They are the foundation upon which we build relationships,
+                make business decisions and pursue our mission and vision with
+                passion and integrity.
+              </p>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.wrapper -->
+      <div class="wrapper dark-wrapper inverse-text" data-aos="fade-right">
         <div class="container inner">
           <blockquote class="icon icon-left">
             <p class="heading text-center">
@@ -353,7 +357,7 @@
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-      <div class="wrapper light-wrapper" data-aos="fade-right">
+      <div class="wrapper light-wrapper" data-aos="fade-left">
         <div class="container inner">
           <blockquote class="icon icon-left">
             <p class="heading text-center">
@@ -390,7 +394,7 @@
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-      <div class="wrapper gray-wrapper" data-aos="fade-left">
+      <div class="wrapper gray-wrapper" data-aos="fade-right">
         <div class="container inner">
           <blockquote class="icon icon-left">
             <p class="heading text-center">
@@ -426,7 +430,7 @@
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-      <div class="wrapper dark-wrapper inverse-text" data-aos="fade-right">
+      <div class="wrapper dark-wrapper inverse-text" data-aos="fade-left">
         <div class="container inner">
           <blockquote class="icon icon-left">
             <p class="heading text-center">
@@ -464,7 +468,7 @@
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-      <div class="wrapper light-wrapper" data-aos="fade-left">
+      <div class="wrapper light-wrapper" data-aos="fade-right">
         <div class="container inner">
           <blockquote class="icon icon-left">
             <p class="heading text-center">
@@ -502,7 +506,7 @@
         <!-- /.container -->
       </div>
       <!-- /.wrapper -->
-      <div class="wrapper gray-wrapper">
+      <div class="wrapper gray-wrapper" id="ourCustomerFlow">
         <div class="container inner">
           <div class="row gutter-60 gutter-md-30">
             <div class="col-md-6" data-aos="fade-right">
@@ -649,7 +653,9 @@
           </h5>
           <div class="space10"></div>
           <div class="text-center">
-            <a href="#" class="btn btn-full-rounded mb-0">Get in Touch</a>
+            <a href="contact.html" class="btn btn-full-rounded mb-0"
+              >Get in Touch</a
+            >
           </div>
           <!-- /.text-center -->
         </div>
