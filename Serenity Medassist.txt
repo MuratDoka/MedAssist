@@ -1,0 +1,57 @@
+Serenity Medassist
+
+*Brenda Secilit sherbim ne fund te faqes perkatese do ket informacion: *FAQQ
+
+<NAVBAR>
+	<Home>
+	<About Us>
+	<Our Services>
+		<Service in Albania>
+			<Dental>
+			<Aesthetic>
+		</Service in Albania>
+		<Service in Turkey>
+			<Hair Transplant>
+			<Infertility & IVF>
+			<Obesity & Diabetes>
+			<Organ Transplatation>
+			<Neurology>
+			<Cardiology>
+			<Others>
+		</Service in Turkey>
+	</Our Services>
+	<Results (Before & After)
+	<Blog>
+	<Contact Us>
+	<Language: Albanian, English, Italian>
+	<Free Consulting>
+</NAVBAR>
+
+
+index5 slaiderin
+index 6
+index 13 per resultatet
+
+index 26
+
+Ngjyrat
+Healing Haven -> #1a7573
+Serene Advancement-> #9bc2e5
+Energetic Vitality-> #eea74f
+
+
+
+Hostinger Acc
+Email:mirelasheraj1@gmail.com
+Pass:23Gusht95
+
+Email Acc
+
+Email: info@serenitymedassist.com
+Pass:PQlamz1234567890!
+
+Email: m.sheraj@serenitymedassist.com
+Pass:PQlamz1234567890!
+
+Email: l.hoxha@serenitymedassist.com
+Pass:PQlamz1234567890!
